@@ -1,0 +1,58 @@
+@use '@fontsource/figtree/latin.css' as figtree;
+@use '@fontsource/merriweather/latin.css' as merriweather;
+@use '@fontsource/playfair-display/latin.css' as playfair-display;
+@use '@catppuccin/vitepress/theme/mocha/red.css';
+
+* {
+  font-family: "Figtree", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.VPNavBarTitle {
+  * {
+    font-family: "Playfair Display", sans-serif;
+  }
+
+  a.title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.claim-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 32px;
+  font-size: 1rem;
+  font-weight: 400;
+
+  @media (min-width: 960px) {
+    .claim-inner {
+      min-width: 870px;
+      position: relative;
+    }
+  }
+
+  * {
+    font-family: "Playfair Display", sans-serif;
+  }
+}
+
+#VPSidebarNav {
+  margin-top: 36px;
+}
+
+.vp-doc {
+  :where(*):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+    font-family: merriweather, sans-serif;
+  }
+}
+
+.claim {
+  font-weight: lighter;
+}
