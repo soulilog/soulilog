@@ -26,10 +26,16 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 0 auto;
-  padding-left: 32px;
-  font-size: 1rem;
+  margin: 14px auto 0;
+  padding-left: 8px;
+  font-size: 0.8rem;
   font-weight: 400;
+
+  @media (min-width: 640px) {
+    margin-top: 0;
+    padding-left: 32px;
+    font-size: 1rem;
+  }
 
   @media (min-width: 960px) {
     .claim-inner {

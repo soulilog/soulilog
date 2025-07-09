@@ -1,4 +1,26 @@
+import { resolve } from 'path';
+import { readFileSync } from 'fs';
+import { globSync } from 'glob';
 import { defineConfig } from 'vitepress';
+import matter from 'gray-matter';
+
+const root   = resolve(__dirname, '../src');
+const essays = globSync(resolve(root, '**/*.md'), {
+    ignore: resolve(__dirname, '../src/index.md'),
+});
+
+const essayItems = [];
+
+essays.forEach((page) => {
+    const raw = readFileSync(page, 'utf-8');
+    const fm  = matter(raw).data
+    const rel = page.replace(root, '');
+
+    essayItems.push({
+        text: fm.title,
+        link: rel,
+    });
+});
 
 export default defineConfig({
     lang: 'de-DE',
@@ -12,12 +34,7 @@ export default defineConfig({
         sidebar: [
             {
                 text: 'Essays',
-                items: [
-                    {
-                        text: 'Im Käfig der Wahrnehmung',
-                        link: '/essay/im-kaefig-der-wahrnehmung.html',
-                    },
-                ]
+                items: essayItems,
             },
         ],
 
