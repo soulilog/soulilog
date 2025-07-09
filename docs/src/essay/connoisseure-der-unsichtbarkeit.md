@@ -1,5 +1,5 @@
 ---
-title: Connoisseur der Unsichtbarkeit
+title: Connoisseure der Unsichtbarkeit
 published_at: '2025-07-09T16:56Z'
 ---
 
