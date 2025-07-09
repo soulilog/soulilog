@@ -32,6 +32,10 @@ export default defineConfig({
     description: "Ein Flüstern im Sturm der Meinungen.",
     appearance: 'force-dark',
 
+    head: [
+        [ 'meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' } ],
+    ],
+
     themeConfig: {
         siteTitle: 'I am.',
         nav: [],

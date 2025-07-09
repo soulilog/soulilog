@@ -5,23 +5,25 @@ published_at: '2025-07-09T16:56Z'
 
 # Connoisseure der Unsichtbarkeit
 
-Manchmal frage ich mich, ob ich derjenige bin, der aus der Zeit gefallen ist.  
-Ob ich zu viel will, wo andere längst losgelassen haben.  
-Ob ich zu oft innehalte, wo man doch längst weiterziehen soll.  
-Ob mein Beharren auf Verantwortung, Tiefe, Haltung –  
-nicht eher ein Anachronismus ist,  
-in einer Welt, die scheinbar nur noch für das Leichte, Schnelle, Bequeme gemacht ist.
+Dieser Text kommt nicht aus einer Position der Überlegenheit.  
+Sondern aus dem Versuch, bewusster zu leben.  
+Zu beobachten, was oft übersehen wird.  
+Zu spüren, was leiser geworden ist.  
+Und zu hinterfragen, ohne sich darüber zu stellen.
 
-Ich beobachte Menschen, die durch ihren Alltag treiben,  
-zwischen Touchscreen und Termindruck,  
-zwischen Konsum und Kommentaren –  
-und frage mich:  
-Ist das Freiheit?  
-Oder einfach nur eine andere Form von Flucht?
+Nicht alles gelingt. Nicht immer ist die Aufmerksamkeit da.  
+Aber sie wächst –  
+mit jedem Moment, in dem das Leichte plötzlich schwer wirkt.  
+In dem Stille lauter ist als jedes Statement.  
+Und Mitgefühl nicht als Schwäche, sondern als Kraft spürbar wird.
+
+Vielleicht geht es genau darum:  
+Nicht darum, besser zu sein.  
+Sondern bewusster.
 
 ## Wo Nähe nicht mehr heilt
 
-Und manchmal sehe ich, wie diese Leichtigkeit hart wird.  
+Und manchmal zeigt sich, wie diese Leichtigkeit hart wird.  
 Wie vermeintlich nahestehende Menschen andere abstoßen,  
 nicht aus Bosheit, sondern aus Überforderung.  
 Weil Nähe plötzlich Kraft kostet.  
@@ -83,7 +85,7 @@ Einem Satz, der nicht geäußert wird, obwohl er leicht wäre.
 
 Ich erinnere mich an den Film *„Das Glücksprinzip“*.  
 Ein Junge hat eine einfache Idee:  
-*Tue drei Menschen etwas Gutes – und bitte sie, es weiterzugeben.*  
+*Tue drei Menschen etwas Gutes – und bitte sie, es weiterzugeben.*
 
 Keine Systemänderung. Kein Weltvertrag. Nur ein Schmetterlingsflügelschlag.
 
