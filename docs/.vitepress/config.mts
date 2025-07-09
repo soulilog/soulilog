@@ -19,8 +19,11 @@ essays.forEach((page) => {
     essayItems.push({
         text: fm.title,
         link: rel,
+        publishedAt: fm.published_at,
     });
 });
+
+essayItems.sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt));
 
 export default defineConfig({
     lang: 'de-DE',
@@ -28,6 +31,7 @@ export default defineConfig({
     title: "Soulilog",
     description: "Ein Flüstern im Sturm der Meinungen.",
     appearance: 'force-dark',
+
     themeConfig: {
         siteTitle: 'I am.',
         nav: [],
@@ -55,5 +59,9 @@ export default defineConfig({
             prev: 'Vorherige Seite',
             next: 'Nächste Seite'
         },
+    },
+
+    transformHead: (context) => {
+        return context.head.filter(([ tag, attrs ]) => !(tag === 'meta' && attrs?.name === 'generator'));
     },
 });
