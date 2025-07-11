@@ -96,7 +96,7 @@ Eine kleine Irritation in einem allzu bequemen Alltag.
 
 Und vielleicht, ganz vielleicht,  
 schafft er Bewegung.  
-Dort, wo die Schwerelosigkeit am größten ist.
+Dort, wo die Unsichtbarkeit am größten ist.
 
 Nicht als Vorwurf.  
 Sondern als Einladung.
