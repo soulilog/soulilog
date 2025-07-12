@@ -28,6 +28,7 @@ const publishedAt     = ref();
 watchEffect(() => {
     if (frontmatter.value.published_at) {
         const formatter = new Intl.DateTimeFormat('de-DE', {
+            timeZone: 'UTC',
             year: 'numeric',
             month: '2-digit',
             day: '2-digit',

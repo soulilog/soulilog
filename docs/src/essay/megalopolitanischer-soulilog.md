@@ -1,6 +1,6 @@
 ---
 title: Megalopolitanischer Soulilog
-published_at: '2025-07-10T20:00Z'
+published_at: '2025-07-11T17:08:10Z'
 ---
 
 # Megalopolitanischer Soulilog

@@ -1,6 +1,6 @@
 ---
 title: Revolvierender Ursprung
-published_at: '2025-07-11T15:24Z'
+published_at: '2025-07-11T17:08:20Z'
 ---
 
 # Revolvierender Ursprung

@@ -1,6 +1,6 @@
 ---
 title: Artefakt des Untergangs
-published_at: '2025-07-12T09:41Z'
+published_at: '2025-07-12T09:44Z'
 ---
 
 # Artefakt des Untergangs

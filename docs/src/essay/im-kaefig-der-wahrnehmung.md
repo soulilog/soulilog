@@ -1,6 +1,6 @@
 ---
 title: Im Käfig der Wahrnehmung
-published_at: '2025-07-09T07:56Z'
+published_at: '2025-07-09T09:56Z'
 ---
 
 # Im Käfig der Wahrnehmung
