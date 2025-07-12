@@ -11,6 +11,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", sans-serif;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.published-at {
+  margin-bottom: 12px;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 .VPNavBarTitle {
   * {
     font-family: "Playfair Display", sans-serif;
