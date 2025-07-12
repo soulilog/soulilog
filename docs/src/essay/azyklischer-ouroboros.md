@@ -1,6 +1,6 @@
 ---
 title: Azyklischer Ouroboros
-published_at: '2025-07-13T11:55Z'
+published_at: '2025-07-12T11:55Z'
 ---
 
 # Azyklischer Ouroboros

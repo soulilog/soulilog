@@ -11,7 +11,7 @@
             v-if="publishedAt"
         >
             <div class="published-at text-right">
-                - veröffentlich am {{ publishedAt }} Uhr
+                - veröffentlicht am {{ publishedAt }} Uhr
             </div>
         </template>
     </Layout>
