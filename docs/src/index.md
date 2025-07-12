@@ -29,7 +29,7 @@ die Schwäche nur duldet, wenn sie vermarktet werden kann.
 
 ## Warum Soulilog?
 
-**„Im Käfig der Wahrnehmung“** war der Anfang –  
+**„[Im Käfig der Wahrnehmung](essay/im-kaefig-der-wahrnehmung.md)“** war der Anfang –  
 ein Essay über vorschnelle Urteile,  
 über Kunst, die angreift, weil sie verletzlich ist.  
 Über die Schwierigkeit, sich Gehör zu verschaffen,  
