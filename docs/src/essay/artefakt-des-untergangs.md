@@ -95,14 +95,16 @@ Ich sehe eine Aufzeichnung:
 Zwei junge Wesen.  
 Öffentlich als bewusst, empathisch, reflektiert bezeichnet.  
 In Aufzeichnungen sprechen sie über Tierwohl, Mitgefühl, innere Balance.  
-Dann – eine Show.  
+Dann –  
+eine Show.  
 Eine Challenge.  
 Fleisch. Fisch. Lachen. Applaus.
 
 Es wirkte harmlos.  
 Für viele: unterhaltsam.  
 Für mich: ein Riss.  
-Kein Skandal – aber ein Symptom.
+Kein Skandal –  
+aber ein Symptom.
 
 Ich frage mich:  
 Wann wurde Prinzip zur Pose?  
@@ -133,7 +135,8 @@ wie von etwas, das gleich reißt.
 
 Die Worte: bedeutungsvoll.  
 Die Taten: beiläufig.  
-Die Kluft dazwischen – messbar.
+Die Kluft dazwischen –  
+messbar.
 
 Dies war keine Lüge,  
 aber auch keine Wahrheit.  
