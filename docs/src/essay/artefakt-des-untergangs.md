@@ -94,15 +94,22 @@ gibt es dann noch ein Ich?
 Ich sehe eine Aufzeichnung:  
 Zwei junge Wesen.  
 Öffentlich als bewusst, empathisch, reflektiert bezeichnet.  
-In Aufzeichnungen sprechen sie über Tierwohl, Mitgefühl, innere Balance.  
+In Aufzeichnungen sprechen sie über Tierwohl,  
+Mitgefühl,  
+innere Balance.  
 Dann –  
 eine Show.  
 Eine Challenge.  
-Fleisch. Fisch. Lachen. Applaus.
+Fleisch.  
+Fisch.  
+Lachen.  
+Applaus.
 
 Es wirkte harmlos.  
-Für viele: unterhaltsam.  
-Für mich: ein Riss.  
+Für viele:  
+unterhaltsam.  
+Für mich:  
+ein Riss.  
 Kein Skandal –  
 aber ein Symptom.
 
