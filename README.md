@@ -9,3 +9,4 @@ Repository for the website https://soulilog.github.io
 * [Revolvierender Ursprung](/docs/src/essay/revolvierender-ursprung.md)  
 * [Artefakt des Untergangs](/docs/src/essay/artefakt-des-untergangs.md)  
 * [Azyklischer Ouroboros](/docs/src/essay/azyklischer-ouroboros.md)  
+* [Im Gold des Käfigs](/docs/src/essay/im-gold-des-kaefigs.md)  
