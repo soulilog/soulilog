@@ -1,5 +1,5 @@
 import { resolve } from 'path';
-import { readFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { globSync } from 'glob';
 import { defineConfig } from 'vitepress';
 import matter from 'gray-matter';
@@ -34,6 +34,7 @@ export default defineConfig({
 
     head: [
         [ 'meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' } ],
+        [ 'link', { rel: 'sitemap', href: '/sitemap.xml' } ],
     ],
 
     themeConfig: {
@@ -65,7 +66,23 @@ export default defineConfig({
         },
     },
 
-    transformHead: (context) => {
-        return context.head.filter(([ tag, attrs ]) => !(tag === 'meta' && attrs?.name === 'generator'));
-    },
+    vite: {
+        plugins: [{
+            name: 'postprocess-html-generator-tag',
+            apply: 'build',
+
+            closeBundle() {
+                setTimeout(() => {
+                    const htmlFiles = globSync(resolve(__dirname, 'dist/**/*.html'));
+
+                    for (const file of htmlFiles) {
+                        writeFileSync(file, readFileSync(file, 'utf-8').replace(
+                            /<meta name="generator" content="VitePress v[^"]+">/,
+                            '<meta name="generator" content="Whispermark">'
+                        ));
+                    }
+                }, 1000);
+            },
+        }],
+    }
 });
