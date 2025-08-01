@@ -4,8 +4,9 @@ import { globSync } from 'glob';
 import { defineConfig } from 'vitepress';
 import matter from 'gray-matter';
 
-const root   = resolve(__dirname, '../src');
-const essays = globSync(resolve(root, '**/*.md'), {
+const baseUri = 'https://soulilog.github.io';
+const root    = resolve(__dirname, '../src');
+const essays  = globSync(resolve(root, '**/*.md'), {
     ignore: resolve(__dirname, '../src/index.md'),
 });
 
@@ -35,10 +36,18 @@ export default defineConfig({
     head: [
         [ 'meta', { name: 'language', content: 'de' } ],
         [ 'meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' } ],
+        [ 'meta', { name: 'theme-color', content: '#0e0f1c' } ],
+
+        [ 'link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' } ],
+        [ 'link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' } ],
+        [ 'link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' } ],
+        [ 'link', { rel: 'icon', sizes: 'any', href: '/favicon.ico' } ],
+
         [ 'link', { rel: 'sitemap', href: '/sitemap.xml' } ],
     ],
 
     themeConfig: {
+        favicon: '/favicon.png',
         siteTitle: 'I am.',
         nav: [],
         sidebar: [
@@ -71,7 +80,7 @@ export default defineConfig({
     },
 
     async transformHead({ pageData, siteData }) {
-        const canonicalUrl = `https://soulilog.github.io/${pageData.relativePath}`
+        const canonicalUrl = `${baseUri}/${pageData.relativePath}`
             .replace(/index\.md$/, '')
             .replace(/\.md$/, '.html')
         ;
@@ -107,13 +116,15 @@ export default defineConfig({
             [ 'meta', { property: 'og:type', content: 'website' } ],
             [ 'meta', { property: 'og:title', content: title } ],
             [ 'meta', { property: 'og:description', content: pageData.description } ],
-            // [ 'meta', { property: 'og:image', content: '' } ], //1800x942
+            [ 'meta', { property: 'og:image', content: `${baseUri}/soulilog-og.jpg` } ],
+            [ 'meta', { property: 'og:height', content: '1200' } ],
+            [ 'meta', { property: 'og:width', content: '630' } ],
             [ 'meta', { property: 'og:url', content: canonicalUrl } ],
 
             [ 'meta', { property: 'twitter:card', content: 'content="summary_large_image"' } ],
             [ 'meta', { property: 'twitter:title', content: title } ],
             [ 'meta', { property: 'twitter:description', content: pageData.description } ],
-            // [ 'meta', { property: 'twitter:image', content: '' } ], //1600x838
+            [ 'meta', { property: 'twitter:image', content: `${baseUri}/soulilog-og.jpg` } ],
             [ 'meta', { property: 'twitter:site', content: '@Soulilog' } ],
             [ 'meta', { property: 'twitter:creator', content: '@Soulilog' } ],
 
