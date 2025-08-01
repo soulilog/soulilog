@@ -1,6 +1,8 @@
 ---
 title: Ein Flüstern im Sturm der Meinungen
-text: Bevor der Zeigefinger spricht.
+headline: 'Wenn Worte Widerstand sind'
+description: 'Ein stiller Prolog über das Bedürfnis zu schreiben, bevor man verstummt – und über einen Ort, an dem Gedanken atmen dürfen: Soulilog.'
+keywords: [ Soulilog, Prolog, Schreiben, Gedankenraum, Selbstgespräch, Reflexion, Innerlichkeit, Empathie, Wahrnehmung, langsames Denken, leise Stimmen, Zivilisationskritik, Zwischenzeilen, Introspektion ]
 ---
 
 # Prolog

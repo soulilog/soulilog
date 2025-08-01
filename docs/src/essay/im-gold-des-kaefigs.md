@@ -1,5 +1,8 @@
 ---
 title: Im Gold des Käfigs
+headline: 'Wenn der goldene Käfig nach Zuhause klingt'
+description: 'Ein Text über das Zeigen, das Verkennen – und jene, die leise bleiben, um klarer zu sehen.'
+keywords: [ Medienkritik, Empörungskultur, Eliten, Macht, Informationsflut, Systemkritik, Manipulation, Entfremdung, Wahrnehmung, Gesellschaftskritik ]
 published_at: '2025-07-20T11:55Z'
 ---
 

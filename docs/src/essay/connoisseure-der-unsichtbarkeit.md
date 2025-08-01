@@ -1,5 +1,8 @@
 ---
 title: Connoisseure der Unsichtbarkeit
+headline: 'Zwischen Sichtbarkeit und Sein'
+description: 'Ein stiller Text über das, was oft übersehen wird – und warum genau darin der Anfang von Veränderung liegen könnte.'
+keywords: [ Empathie, Unsichtbarkeit, Gemeinsinn, Gesellschaft, Zwischenmenschlichkeit, Verantwortung, Entfremdung, Mitgefühl, Sozialphilosophie, Bewusstsein ]
 published_at: '2025-07-09T19:04Z'
 ---
 

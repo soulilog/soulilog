@@ -1,5 +1,8 @@
 ---
 title: Azyklischer Ouroboros
+headline: 'Die Schlange, die sich nicht frisst'
+description: 'Was, wenn Fortschritt nur eine elegante Wiederholung ist – und unser Blick das Einzige, was sich wirklich ändern kann?'
+keywords: [ Fortschritt, Megalopolis, Filmkritik, Gesellschaft, Wahrnehmung, Zyklus, Coppola, Utopie, Ouroboros, Symbolik, Filmanalyse, Soulilog ]
 published_at: '2025-07-12T11:55Z'
 ---
 

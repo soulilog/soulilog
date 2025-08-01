@@ -1,5 +1,8 @@
 ---
 title: Megalopolitanischer Soulilog
+headline: 'Wo Logik flüstert und Intuition antwortet'
+description: 'Ein Dialog zwischen Ordnung und Gefühl – und der leisen Ahnung, dass wahre Veränderung dort beginnt, wo beides sich nicht mehr ausschließt.'
+keywords: [ Dialog, Gefühl, Struktur, Gesellschaft, Wandel, Dualismus, Kontrolle, Trost, Zwischenmenschlichkeit, Philosophie ]
 published_at: '2025-07-11T17:08:10Z'
 ---
 

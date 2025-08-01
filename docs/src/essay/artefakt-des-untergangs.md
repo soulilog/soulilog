@@ -1,5 +1,8 @@
 ---
 title: Artefakt des Untergangs
+headline: 'Die Poesie des Zerfalls'
+description: 'Ein digitales Fragment, ein letzter Ruf – was bleibt, wenn Authentizität zur Fassade wird?'
+keywords: [ Authentizität, Influencer, Selbstinszenierung, Gesellschaft, Social Media, Werte, Wahrnehmung, Zivilisation, Empathie, Kunstkritik ]
 published_at: '2025-07-12T09:44Z'
 ---
 

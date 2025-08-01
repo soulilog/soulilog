@@ -1,5 +1,8 @@
 ---
 title: Revolvierender Ursprung
+headline: 'Wurzeln, die uns leiten – oder binden'
+description: 'Ein Essay über die leisen Prägungen unserer Herkunft – und den Versuch, das Erbe zu verstehen, bevor wir es unbeabsichtigt weitertragen.'
+keywords: [ Herkunft, Prägung, Muster, Generationen, Reflexion, Identität, Selbstverantwortung, Persönlichkeitsentwicklung, Gesellschaft, Vergangenheit ]
 published_at: '2025-07-11T17:08:20Z'
 ---
 

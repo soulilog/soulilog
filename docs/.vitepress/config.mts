@@ -33,6 +33,7 @@ export default defineConfig({
     appearance: 'force-dark',
 
     head: [
+        [ 'meta', { name: 'language', content: 'de' } ],
         [ 'meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' } ],
         [ 'link', { rel: 'sitemap', href: '/sitemap.xml' } ],
     ],
@@ -48,6 +49,9 @@ export default defineConfig({
         ],
 
         socialLinks: [
+            { icon: 'instagram', link: 'https://www.instagram.com/praestigia_' },
+            { icon: 'threads', link: 'https://www.threads.com/praestigia_' },
+            { icon: 'x', link: 'https://x.com/Soulilog' },
             { icon: 'github', link: 'https://github.com/soulilog/soulilog.github.io' },
         ],
 
@@ -64,6 +68,65 @@ export default defineConfig({
             prev: 'Vorherige Seite',
             next: 'Nächste Seite'
         },
+    },
+
+    async transformHead({ pageData, siteData }) {
+        const canonicalUrl = `https://soulilog.github.io/${pageData.relativePath}`
+            .replace(/index\.md$/, '')
+            .replace(/\.md$/, '.html')
+        ;
+
+        const title         = `${pageData.title} | ${siteData.title}`;
+        const headline      = pageData.frontmatter.headline;
+        const keywords      = pageData.frontmatter.keywords || [];
+        const datePublished = pageData.frontmatter.published_at || null;
+
+        const jsonLd = {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            name: pageData.title,
+            headline,
+            author: {
+                "@type": "Person",
+                name: "Alex Praestigia"
+            },
+            description: pageData.description,
+            keywords,
+            ...(datePublished ? { datePublished } : {}),
+            url: canonicalUrl,
+        };
+
+        const head = [
+            [ 'link', { rel: 'canonical', href: canonicalUrl } ],
+
+            [ 'meta', { name: 'author', content: 'Alex Praestigia' } ],
+            [ 'meta', { name: 'copyright', content: 'Copyright © 2025-present Soulilog' } ],
+            [ 'meta', { name: 'robots', content: 'index, follow' } ],
+
+            [ 'meta', { property: 'og:site_name', content: siteData.title } ],
+            [ 'meta', { property: 'og:type', content: 'website' } ],
+            [ 'meta', { property: 'og:title', content: title } ],
+            [ 'meta', { property: 'og:description', content: pageData.description } ],
+            // [ 'meta', { property: 'og:image', content: '' } ], //1800x942
+            [ 'meta', { property: 'og:url', content: canonicalUrl } ],
+
+            [ 'meta', { property: 'twitter:card', content: 'content="summary_large_image"' } ],
+            [ 'meta', { property: 'twitter:title', content: title } ],
+            [ 'meta', { property: 'twitter:description', content: pageData.description } ],
+            // [ 'meta', { property: 'twitter:image', content: '' } ], //1600x838
+            [ 'meta', { property: 'twitter:site', content: '@Soulilog' } ],
+            [ 'meta', { property: 'twitter:creator', content: '@Soulilog' } ],
+
+            [ 'script', { type: 'application/ld+json' }, JSON.stringify(jsonLd) ],
+        ];
+
+        if (datePublished) {
+            head.push(
+                [ 'meta', { property: 'article:published_time', content: `${datePublished}` } ],
+            );
+        }
+
+        return head;
     },
 
     vite: {
@@ -84,5 +147,5 @@ export default defineConfig({
                 }, 1000);
             },
         }],
-    }
+    },
 });

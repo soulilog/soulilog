@@ -1,5 +1,8 @@
 ---
 title: Im Käfig der Wahrnehmung
+headline: 'Die Kunst, missverstanden zu werden'
+description: 'Ein Essay über die Macht von Bildern, die Schwäche des schnellen Urteils – und den leisen Wunsch, wieder wirklich gesehen zu werden.'
+keywords: [ Kunst, Wahrnehmung, Missverständnis, Intention, Cancel Culture, Empathie, Projektion, Medienethik, Urteilsfreude, Zwischenzeilen ]
 published_at: '2025-07-09T09:56Z'
 ---
 
